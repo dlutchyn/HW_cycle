@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head><title> Financial results </title>
+        <link href="/static/styles/final_styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<img class="myImg" id="myImg1" src="{{img_source1}}" alt="Estimated growth of your portfolio" style="position: absolute;
+left: 4%; top: 15%;">
+<img class="myImg" id="myImg2" src="{{img_source2}}" alt="Estimated growth of your stocks" style="position: absolute;
+right: 4%; top: 15%;">
+
+
+<div id="myModal1" class="modal">
+  <span class="close" id="s_close1">&times;</span>
+  <img class="modal-content" id="img01">
+  <div class="caption" id="caption1"></div>
+</div>
+
+<div id="myModal2" class="modal">
+  <span class="close" id="s_close2">&times;</span>
+  <img class="modal-content" id="img02">
+  <div class="caption" id="caption2"></div>
+</div>
+<div id="portfolio_p">
+  <h2>Your best portfolio:</h2>
+  <ul style="text-align: center;">
+    {% for i in range(0, len)%}
+    <li class="stock_por">{{names_stocks_portfolio[i]}}</li>
+    {% endfor %}
+  </ul>
+</div>
+<script src="/static/scripts/final_results.js"></script>
+</body>
+</html>

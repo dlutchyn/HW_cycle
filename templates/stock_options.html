@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> First way to financial success </title>
+    <link href="static/styles/stock_options_styles.css" rel="stylesheet" type="text/css">
+    <link href="static/styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!--    <div class="ver" style="top: 11%; left: 29%"></div>-->
+<!--    <div class="ver" style="top: 11%; left: 49%"></div>-->
+<!--    <div class="ver" style="top: 11%; left: 69%"></div>-->
+<!--    <div class="hor" style="top: 84%; left: 7%"></div>-->
+<div class="layer">
+</div>
+        <h1 style="font-size: 70px; position: absolute; top: 0; left: 10%;">Choose preferable stocks to invest</h1>
+
+        <form action="{{ url_for('check') }}" method="post">
+            <div style="position: absolute; top: 15%; left: 6%">
+                <h1 style="text-align: center">Trade Stocks</h1>
+                <ol>
+                    {%for i in range(0, len_st)%}
+                    <li>
+                        <h1>{{stocks_names[i][0]}}
+                            <label class="switch" style="position: relative; left: 1%;">
+                                <input type="checkbox" name={{cb_stock_names[i]}} value="{{stocks_names[i][1]}}"><span
+                                    class="slider round"></span>
+                        </label></h1>
+
+                    </li>
+                    {%endfor%}
+                </ol>
+            </div>
+            <div style="position: absolute; top: 15%; left: 32%;">
+                <h1 style="text-align: center">Forex Trading</h1>
+                <ol>
+                    {%for i in range(0, len_for)%}
+                    <li>
+                        <h1>{{for_names[i][0]}}
+                            <label class="switch" style="position: relative; left: 1%;">
+                                <input type="checkbox" name={{cb_for_names[i]}} value="{{for_names[i][1]}}"><span
+                                    class="slider round"></span>
+                        </label></h1>
+                    </li>
+                    {%endfor%}
+                </ol>
+            </div>
+            <div style="position: absolute; top: 15%; left: 51%;">
+                <h1 style="text-align: center">World Indices</h1>
+                <ol>
+                    {%for i in range(0, len_cur)%}
+                    <li>
+                        <h1>{{cur_names[i][0]}}
+                            <label class="switch" style="position: relative; left: 1%;">
+                                <input type="checkbox" name={{cb_cur_names[i]}} value="{{cur_names[i][1]}}"><span
+                                    class="slider round"></span>
+                        </label></h1>
+                    </li>
+                    {%endfor%}
+                </ol>
+            </div>
+            <div style="position: absolute; top: 15%; left: 73%;">
+                <h1 style="text-align: center">Commodities</h1>
+                <ol>
+                    {%for i in range(0, len_com)%}
+                    <li>
+                        <h1>{{com_names[i][0]}}
+                            <label class="switch" style="position: relative; left: 1%;">
+                                <input type="checkbox" name={{cb_com_names[i]}} value="{{com_names[i][1]}}"><span
+                                    class="slider round"></span>
+                        </label></h1>
+                    </li>
+                    {%endfor%}
+                </ol>
+            </div>
+
+            <div >
+                <h1 style="font-size: 20px; position: absolute; top: 82%; left: 10%;">Enter the number of stocks you
+                    would like to invest in</h1>
+                <input name="investing_number" type="text" style="position: absolute; top: 88%; left: 10%;text-align: center">
+                <h1 style="font-size: 20px; position: absolute; top: 89%; left: 10%;">Enter the number of days to get
+                    analysis for</h1>
+                <input name="days_number" type="text" style="position: absolute; top: 95%; left: 10%; text-align: center">
+                <button class="button" style="position: absolute; top: 85%; left: 55%; padding: 5px 10px;">Submit your
+                    choice</button>
+            </div>
+
+
+        </form>
+
+
+</body>
+
+</html>
