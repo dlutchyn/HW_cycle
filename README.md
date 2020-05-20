@@ -6,6 +6,8 @@ or invest their money into world currencies, corporations and stocks. Based on y
 collected/analyzed data, Financial Portfolio Creator generates you a most reliable and profitable 
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
+<h2>Table of content</h2>
+[Go to Input and Output data section](#input-and-output-data)
 
 <h2>Instalation and requirements</h2>
 
@@ -59,7 +61,7 @@ Start creating your financial portfolio
 
 View your results
 
-<h2>Input and Output data</h2>
+<h2># Input and Output data</h2>
 The input data is the number of stocks you are willing to invest in (the size of your financial portfolio)
 and the numer of days you want to have an analysis for (the more days, the more accurate the analysis will be)
 You also check the boxex of the preferable stocks for investing.
@@ -67,15 +69,15 @@ You also check the boxex of the preferable stocks for investing.
 <h2>Project Structure</h2>
 <h3>Modules</h3>
 
-* getter_data.py
-* processor.py
-* stock_plotting.py
+* getter_data.py - module that gets stock data from the csv files 
+* processor.py - module that processes all information about stocks from yfinance and analyzes it
+* stock_plotting.py - module that plots graphics with analyzed information
 
 <h3>Structures</h3>
 
-* arrays.py
-* stock_adt.py
-* stock_analyzer.py
+* arrays.py - module with implemented Array ADT
+* stock_adt.py - module with implemented Stock ADT
+* stock_analyzer.py - module with implemented StockAnalyzer ADT
 
 <h3>External Libraries</h3>
 
