@@ -6,6 +6,15 @@ or invest their money into world currencies, corporations and stocks. Based on y
 collected/analyzed data, Financial Portfolio Creator generates you a most reliable and profitable 
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
+## Wiki content
+
+1. [Опис проблеми](https://github.com/dlutchyn/HW_cycle/wiki/%D0%9E%D0%BF%D0%B8%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B8)
+2. [Web blog analysis](https://github.com/dlutchyn/HW_cycle/wiki/Web-blog-analysis-(%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B0%D1%82%D0%B8)
+3. [ДЗ-2](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%B7---2)
+4. [ДЗ-3](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%B7---3)
+5. [ДЗ-4]()
+6. [ДЗ-5](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%B7---5)
+
 ## Table of content
 
 1. [Instalation and requirements](#instalation-and-requirements)
