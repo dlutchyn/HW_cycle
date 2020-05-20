@@ -6,6 +6,7 @@ or invest their money into world currencies, corporations and stocks. Based on y
 collected/analyzed data, Financial Portfolio Creator generates you a most reliable and profitable 
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
+
 <h2>Instalation and requirements</h2>
 
 <h3> - Download the project</h3>
@@ -28,10 +29,13 @@ Another way to install all requirements is to execute the following command:
 ```python 
 pip install pandas, matplotlib, flask, yfinance, numpy
 ```
-<h3>Run the program</h3>
+<h3> - Run the program</h3>
 Write:
 
 ```python
 python flask_app.py
 ```
+
+<h2>Program exploitation</h2>
+<h3> - Welcome page</h3>
 
