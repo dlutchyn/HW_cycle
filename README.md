@@ -59,6 +59,30 @@ Start creating your financial portfolio
 
 View your results
 
+<h2>Input and Output data</h2>
+The input data is the number of stocks you are willing to invest in (the size of your financial portfolio)
+and the numer of days you want to have an analysis for (the more days, the more accurate the analysis will be)
+You also check the boxex of the preferable stocks for investing.
 
+<h2>Project Structure</h2>
+<h3>Modules</h3>
+
+* getter_data.py
+* processor.py
+* stock_plotting.py
+
+<h3>Structures</h3>
+
+* arrays.py
+* stock_adt.py
+* stock_analyzer.py
+
+<h3>External Libraries</h3>
+
+* yfinance
+* numpy
+* pandas
+* flask
+* matplotlib
 
 
