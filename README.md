@@ -8,9 +8,12 @@ collection of stocks for you to invest in. Using this program, you will get a st
 
 ## Table of content
 
-1. [Input and Output data](#input-and-output-data)
+1. [Instalation and requirements](#installation-and-requirements)
+2. [Program exploitation](#program-exploitation)
+3. [Input and Output data](#input-and-output-data)
+4. [Project Structure](#project-structure)
 
-<h2>Instalation and requirements</h2>
+## Instalation and requirements
 
 <h3> - Download the project</h3>
 You can clone this project from repository executing this command for your local git repository
@@ -39,7 +42,7 @@ Write:
 python flask_app.py
 ```
 
-<h2>Program exploitation</h2>
+## Program exploitation
 <h3> - Welcome page</h3>
 
 ![](/static/images/welcome.png)
@@ -67,7 +70,7 @@ The input data is the number of stocks you are willing to invest in (the size of
 and the numer of days you want to have an analysis for (the more days, the more accurate the analysis will be)
 You also check the boxex of the preferable stocks for investing.
 
-<h2>Project Structure</h2>
+## Project Structure
 <h3>Modules</h3>
 
 * getter_data.py - module that gets stock data from the csv files 
