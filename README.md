@@ -8,7 +8,7 @@ collection of stocks for you to invest in. Using this program, you will get a st
 
 ## Table of content
 
-1. [Input and Output data](#my-input-and-output-data)
+1. [Input and Output data](#input-and-output-data)
 
 <h2>Instalation and requirements</h2>
 
