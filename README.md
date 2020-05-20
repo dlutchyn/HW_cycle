@@ -12,6 +12,6 @@ collection of stocks for you to invest in. Using this program, you will get a st
 You can clone this project from repository executing this command for your local git repository
 
 ```python 
-git clone https://github.com/dlutchyn/HW_cycle
+$ git clone https://github.com/dlutchyn/HW_cycle
 ```
 
