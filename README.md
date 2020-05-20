@@ -7,7 +7,7 @@ collected/analyzed data, Financial Portfolio Creator generates you a most reliab
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
 <h2>Instalation and requirements</h2>
-*Download the project
+* Download the project
 You can clone this project from repository executing this command for your local git repository
 ```python 
 git clone https://github.com/dlutchyn/HW_cycle
