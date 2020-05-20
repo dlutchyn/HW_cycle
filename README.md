@@ -6,7 +6,7 @@ or invest their money into world currencies, corporations and stocks. Based on y
 collected/analyzed data, Financial Portfolio Creator generates you a most reliable and profitable 
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
-<h2>Table of content</h2>
+## Table of content
 
 1. [My Input and Output data](#my-input-and-output-data)
 
