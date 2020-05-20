@@ -38,11 +38,15 @@ python flask_app.py
 
 <h2>Program exploitation</h2>
 <h3> - Welcome page</h3>
+
 ![](/static/images/welcome.png)
+
 Start creating your financial portfolio
 
 <h3> - Creating portfolio</h3>
+
 ![](/static/images/stock.png)
+
 - Select stocks you would like to invest in
 - After that type in the number of stocks you are ready to invest (the size of your portfolio)
 - Type in the number of days you want the analysis to be held on 
@@ -50,7 +54,9 @@ Start creating your financial portfolio
 - Submit
 
 <h3> - Results</h3>
+
 ![](/static/images/result.png)
+
 View your results
 
 
