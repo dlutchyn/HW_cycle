@@ -7,7 +7,7 @@ collected/analyzed data, Financial Portfolio Creator generates you a most reliab
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
 <h2>Table of content</h2>
-[Go to Input and Output data section](#input-and-output-data)
+1. [My Input and Output data](#my-input-and-output-data)
 
 <h2>Instalation and requirements</h2>
 
@@ -61,7 +61,7 @@ Start creating your financial portfolio
 
 View your results
 
-<h2># Input and Output data</h2>
+## Input and Output data
 The input data is the number of stocks you are willing to invest in (the size of your financial portfolio)
 and the numer of days you want to have an analysis for (the more days, the more accurate the analysis will be)
 You also check the boxex of the preferable stocks for investing.
