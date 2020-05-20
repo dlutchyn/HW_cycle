@@ -8,7 +8,7 @@ collection of stocks for you to invest in. Using this program, you will get a st
 
 ## Table of content
 
-1. [Instalation and requirements](#installation-and-requirements)
+1. [Instalation and requirements](#instalation-and-requirements)
 2. [Program exploitation](#program-exploitation)
 3. [Input and Output data](#input-and-output-data)
 4. [Project Structure](#project-structure)
