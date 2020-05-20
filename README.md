@@ -7,6 +7,7 @@ collected/analyzed data, Financial Portfolio Creator generates you a most reliab
 collection of stocks for you to invest in. Using this program, you will get a stable yearly income.
 
 <h2>Table of content</h2>
+
 1. [My Input and Output data](#my-input-and-output-data)
 
 <h2>Instalation and requirements</h2>
