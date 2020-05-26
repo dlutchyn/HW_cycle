@@ -12,7 +12,7 @@ collection of stocks for you to invest in. Using this program, you will get a st
 2. [Web blog analysis](https://github.com/dlutchyn/HW_cycle/wiki/Web-blog-analysis)
 3. [ДЗ-2](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%B7---2)
 4. [ДЗ-3](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%B7---3)
-5. [ДЗ-4]()
+5. [ДЗ-4](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%97---4)
 6. [ДЗ-5](https://github.com/dlutchyn/HW_cycle/wiki/%D0%94%D0%B7---5)
 
 ## Table of content
